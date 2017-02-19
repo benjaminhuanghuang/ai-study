@@ -1,7 +1,7 @@
 '''
-1. Load / Import data
-2. Train a classifier
-3. Predict label of new one
+    1. Load / Import data
+    2. Train a classifier
+    3. Predict label of new one
 
 '''
 
