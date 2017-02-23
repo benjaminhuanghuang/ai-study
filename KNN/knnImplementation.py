@@ -29,7 +29,7 @@ def getNeighbors(trainingSet, testInstance, k):
     length = len(testInstance) - 1
     for x in range(len(trainingSet)):
         dist = eulideanDistance(testInstance, trainingSet[x], length)
-        distances.append(trainingSet[x], dist)
+        distances.append((trainingSet[x], dist))
     distances.sort(key=operator.itemgetter(1))
     neighboors = []
     for x in range(k):
@@ -45,7 +45,7 @@ def getResponse(neighbors):
             classVotes[response] + 1
         else:
             classVotes[response] = 1
-    sortedVotes = sorted(classVotes.iteritems(), key=operator.itemgetter(1), reversed=True)
+    sortedVotes = sorted(classVotes.iteritems(), key=operator.itemgetter(1), reverse=True)
     return sortedVotes[0][0]
 
 
@@ -55,3 +55,27 @@ def getAccracy(testSet, predictions):
         if testSet[x][-1] == predictions[x]:
             correct += 1
     return (correct / float(len(testSet))) * 100.0
+
+
+def main():
+    trainingSet = []
+    testSet = []
+    split = 0.67
+    loadDataset('iris.data.txt', split, trainingSet, testSet)
+    print "Train set:", repr(len(trainingSet))
+    print "Test set:", repr(len(testSet))
+
+    predictions = []
+    k = 3
+    for x in range(len(testSet)):
+        neighbors = getNeighbors(trainingSet, testSet[x], k)
+        result = getResponse(neighbors)
+        predictions.append(result)
+        print "> predicted= " + repr(result) + ", actual= " + repr(testSet[x][-1])
+
+    accuracy = getAccracy(testSet, predictions)
+    print "Accuracey: ", repr(accuracy) + "%"
+
+
+if __name__ == "__main__":
+    main()
