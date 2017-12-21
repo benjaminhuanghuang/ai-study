@@ -1,3 +1,10 @@
+'''
+    Predict the category to which a text belongs
+    Used in text classification, example, classify sentence into sports, politics or science
+
+    Use tf-idf(TermFrequency-InverseDocumentFrequency) to understand the importance of a word in a document
+    
+'''
 from __future__ import print_function
 
 from sklearn.datasets import fetch_20newsgroups
