@@ -8,13 +8,13 @@ DOWNLOAD_ROOT = "https://raw.githubusercontent.com/ageron/handson-ml/master/"
 HOUSING_PATH = "datasets/housing"
 HOUSING_URL = DOWNLOAD_ROOT + HOUSING_PATH + "/housing.tgz"
 
-'''
-creates a datasets/housing directory in workspace, downloads the housing.tgz file, 
-and extracts the housing.csv from it.
-'''
-
 
 def fetch_housing_data(housing_url=HOUSING_URL, housing_path=HOUSING_PATH):
+
+'''
+    creates a datasets/housing directory in workspace, downloads the housing.tgz file, 
+    and extracts the housing.csv from it.
+'''
     if not os.path.isdir(housing_path):
         os.makedirs(housing_path)
     tgz_path = os.path.join(housing_path, "housing.tgz")
@@ -27,7 +27,6 @@ def fetch_housing_data(housing_url=HOUSING_URL, housing_path=HOUSING_PATH):
 def load_housing_data(housing_path=HOUSING_PATH):
  csv_path = os.path.join(housing_path, "housing.csv")
  return pd.read_csv(csv_path)
-
 
 
 if __name__ == '__main__':
