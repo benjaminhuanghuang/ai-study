@@ -8,3 +8,6 @@
 - Scanning pictures and classifiying fruits
 - Classifying tumour based on scans
 
+## Decision Trees
+    Predicts a label, based on decisions inferred from the features
+    - http://scikit-learn.org/stable/modules/tree.html
