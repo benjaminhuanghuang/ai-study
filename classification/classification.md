@@ -11,3 +11,7 @@
 ## Decision Trees
     Predicts a label, based on decisions inferred from the features
     - http://scikit-learn.org/stable/modules/tree.html
+
+## KNN
+    KNN calculates distance using Minkowski Metric. It is advisable to use odd value for K
+    

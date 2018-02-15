@@ -12,3 +12,9 @@
     ...
     (venv3)$ deactivate
 ```
+
+
+## Add python kernal to jupyter
+```
+    python -m ipykernel install --user --name other-env --display-name "Python 3"
+```
