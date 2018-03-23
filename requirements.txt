@@ -5,3 +5,4 @@ scipy
 six
 matplotlib
 seaborn
+mglearn
