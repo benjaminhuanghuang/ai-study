@@ -11,6 +11,8 @@ import os
 import tarfile
 from six.moves import urllib
 import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
 
 import matplotlib
 matplotlib.use('TkAgg')
@@ -40,7 +42,6 @@ def load_housing_data(housing_path=HOUSING_PATH):
     csv_path = os.path.join(housing_path, "housing.csv")
     return pd.read_csv(csv_path)
 
-
 if __name__ == '__main__':
     housing = load_housing_data()
     print('Head of data', housing.head())   # 5 rows
@@ -51,3 +52,5 @@ if __name__ == '__main__':
     
     housing.hist(bins=50, figsize=(20,15))
     plt.show()
+
+    train_set, test_set = train_test_split(housing, test_size=0.2, random_state=42)
