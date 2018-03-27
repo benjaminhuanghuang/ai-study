@@ -16,25 +16,15 @@ digits = datasets.load_digits()
 # or 
 #digits = pd.read_csv("http://archive.ics.uci.edu/ml/machine-learning-databases/optdigits/optdigits.tra", header=None)
 
-# Print the `digits` data 
-#print(digits)
-
-# Get the keys of the `digits` data
-print("----------digit.keys--------", digits.keys())
-
-# Print out the data
-print(digits.data)
-
-# Print out the target values
-print(digits.target)
-
-# Print out the description of the `digits` data
-print(digits.DESCR)
+print("Keys of digits", digits.keys())
+print('Data of digits', digits.data)
+print('Target of digits',digits.target)
+print('Description of digits', digits.DESCR)
 
 # Isolate the `digits` data
 digits_data = digits.data
 # 1797 samples and that there are 64 features
-print("digits_data.shape", digits_data.shape)
+print("Shape of data", digits_data.shape)
 
 # Isolate the target values with `target`
 digits_target = digits.target
