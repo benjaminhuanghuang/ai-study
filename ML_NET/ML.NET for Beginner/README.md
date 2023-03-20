@@ -1,7 +1,9 @@
 # ML.NET for Beginner
+https://learn.microsoft.com/en-us/shows/mlnet/?wt.mc_id=educationalmlnet-c9-niner
 
 https://www.youtube.com/watch?v=X0DQjfW09kA&list=PLdo4fOcmZ0oUDTvk5XMNues09FnuB_D0u
 
+https://github.com/dotnet/machinelearning-samples
 
 ## ML.NET - Machine Learning Introduction
 Machine learning is all about programming un-programmable
