@@ -1,5 +1,7 @@
 # Machine Learning Study Project
 
+Machine learning is all about programming the un-programmable.
+
 ## Setup
 ```
     $ brew install python3
