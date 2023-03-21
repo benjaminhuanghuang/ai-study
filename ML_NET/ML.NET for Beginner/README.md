@@ -72,6 +72,12 @@ Run
 ```
     dotnet run
 ```
+
+### Use ML.NET API
+Install Microsoft.ML package
+
+
+
 ## Build a ML model for Sentiment Analysis
 Binary classification 
 
