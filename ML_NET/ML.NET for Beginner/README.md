@@ -13,6 +13,7 @@ Machine learning is all about programming un-programmable
 ## ML.NET Introduction
 
 ## Getting started with ML.NET
+https://www.youtube.com/watch?v=7U14iupLMdk&list=PLdo4fOcmZ0oUDTvk5XMNues09FnuB_D0u&index=3
 
 3 Ways to use ML.NET
 - ML.NET API
@@ -79,5 +80,25 @@ Install Microsoft.ML package
 
 
 ## Build a ML model for Sentiment Analysis
+https://www.youtube.com/watch?v=p3kHlpLvWNI&list=PLdo4fOcmZ0oUDTvk5XMNues09FnuB_D0u&index=4
+
 Binary classification 
 
+
+## Build a ML model for GitHub Issue classification
+https://www.youtube.com/watch?v=spPq7PdnmRs&list=PLdo4fOcmZ0oUDTvk5XMNues09FnuB_D0u&index=5
+
+Multi-class classification
+Use corefx-issue-train.tsv
+
+## Build a ML model for predicting taxi fares
+https://www.youtube.com/watch?v=CnmmhxGUgqg&list=PLdo4fOcmZ0oUDTvk5XMNues09FnuB_D0u&index=6
+
+Regression
+Use taxifare.csv
+
+## Build a ML model for Movie Recommendation 
+https://www.youtube.com/watch?v=f2KIjQCVN0A&list=PLdo4fOcmZ0oUDTvk5XMNues09FnuB_D0u&index=7
+
+## Deep learning with ML.NET: Image Classification
+https://www.youtube.com/watch?v=C9p38jXKhB0&list=PLdo4fOcmZ0oUDTvk5XMNues09FnuB_D0u&index=8
