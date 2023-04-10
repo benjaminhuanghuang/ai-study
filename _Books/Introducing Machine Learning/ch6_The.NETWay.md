@@ -1,0 +1,1 @@
+In general terms, training consists of finding the set of values that would let the selected algorithm work effectively in the considered scenario.
