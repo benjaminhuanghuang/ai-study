@@ -1,0 +1,431 @@
+﻿{
+  "TrainingTime": 30,
+  "Scenario": "Classification",
+  "DataSource": {
+    "Type": "TabularFile",
+    "Version": 1,
+    "FilePath": "C:\\ben-github\\ml-study\\_Courses\\Let's Learn .NET - Machine Learning\\ai4i2020.csv",
+    "Delimiter": ",",
+    "DecimalMarker": ".",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "UDI",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "Product ID",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "Type",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "Air temperature",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "Process temperature",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "Rotational speed",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "Torque",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "Tool wear",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "Machine failure",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "TWF",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "HDF",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "PWF",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "OSF",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "RNF",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 2
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 1,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.96611810261374642,
+        "RuntimeInSeconds": 1.1640000343322754
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.96611810261374642,
+        "RuntimeInSeconds": 0.59500002861022949
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.9757986447241046,
+        "RuntimeInSeconds": 0.70999997854232788
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.97483059051306875,
+        "RuntimeInSeconds": 0.59799998998641968
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.96611810261374642,
+        "RuntimeInSeconds": 0.35499998927116394
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.968054211035818,
+        "RuntimeInSeconds": 0.79000002145767212
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.98547918683446278,
+        "RuntimeInSeconds": 0.82899999618530273
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.957405614714424,
+        "RuntimeInSeconds": 0.492000013589859
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.96611810261374642,
+        "RuntimeInSeconds": 0.42100000381469727
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.968054211035818,
+        "RuntimeInSeconds": 0.70899999141693115
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.96611810261374642,
+        "RuntimeInSeconds": 0.63700002431869507
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.96902226524685386,
+        "RuntimeInSeconds": 1.156999945640564
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.98063891577928364,
+        "RuntimeInSeconds": 0.90200001001358032
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.98257502420135523,
+        "RuntimeInSeconds": 1.6130000352859497
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.96611810261374642,
+        "RuntimeInSeconds": 0.58499997854232788
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.96611810261374642,
+        "RuntimeInSeconds": 0.53700000047683716
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.972894482090997,
+        "RuntimeInSeconds": 0.42899999022483826
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.96611810261374642,
+        "RuntimeInSeconds": 0.58600002527236938
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.96611810261374642,
+        "RuntimeInSeconds": 0.62599998712539673
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.97483059051306875,
+        "RuntimeInSeconds": 0.78299999237060547
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.98354307841239108,
+        "RuntimeInSeconds": 0.88700002431869507
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.96611810261374642,
+        "RuntimeInSeconds": 0.50599998235702515
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.96611810261374642,
+        "RuntimeInSeconds": 0.44800001382827759
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.9699903194578896,
+        "RuntimeInSeconds": 1.0970000028610229
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.98354307841239108,
+        "RuntimeInSeconds": 1.5240000486373901
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.96611810261374642,
+        "RuntimeInSeconds": 0.68000000715255737
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.98451113262342693,
+        "RuntimeInSeconds": 0.90100002288818359
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.97192642787996131,
+        "RuntimeInSeconds": 1.7460000514984131
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.96611810261374642,
+        "RuntimeInSeconds": 0.41999998688697815
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.96611810261374642,
+        "RuntimeInSeconds": 0.47200000286102295
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.96515004840271057,
+        "RuntimeInSeconds": 0.71299999952316284
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.96611810261374642,
+        "RuntimeInSeconds": 0.59799998998641968
+      }
+    ],
+    "Pipeline": {
+      "parameter": {
+        "0": {
+          "OutputColumnNames": [
+            "Type"
+          ],
+          "InputColumnNames": [
+            "Type"
+          ]
+        },
+        "1": {
+          "OutputColumnNames": [
+            "Air temperature",
+            "Process temperature",
+            "Rotational speed",
+            "Torque",
+            "Tool wear"
+          ],
+          "InputColumnNames": [
+            "Air temperature",
+            "Process temperature",
+            "Rotational speed",
+            "Torque",
+            "Tool wear"
+          ]
+        },
+        "2": {
+          "InputColumnName": "Product ID",
+          "OutputColumnName": "Product ID"
+        },
+        "3": {
+          "InputColumnNames": [
+            "Type",
+            "Air temperature",
+            "Process temperature",
+            "Rotational speed",
+            "Torque",
+            "Tool wear",
+            "Product ID"
+          ],
+          "OutputColumnName": "Features"
+        },
+        "4": {
+          "OutputColumnName": "Machine failure",
+          "InputColumnName": "Machine failure"
+        },
+        "5": {
+          "NumberOfTrees": 4,
+          "NumberOfLeaves": 4,
+          "FeatureFraction": 1.0,
+          "LabelColumnName": "Machine failure",
+          "FeatureColumnName": "Features"
+        },
+        "6": {
+          "OutputColumnName": "PredictedLabel",
+          "InputColumnName": "PredictedLabel"
+        }
+      },
+      "estimators": [
+        "OneHotEncoding",
+        "ReplaceMissingValues",
+        "FeaturizeText",
+        "Concatenate",
+        "MapValueToKey",
+        "FastForestOva",
+        "MapKeyToValue"
+      ]
+    },
+    "MetricName": "MicroAccuracy"
+  },
+  "Type": "TrainingConfig",
+  "Version": 2
+}

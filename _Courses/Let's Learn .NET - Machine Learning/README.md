@@ -30,6 +30,4 @@ processes data.
 Model Training (Get the data > Prepare the data > Train > Evaluate) > Model Consumption (Deploy > Inference)
 
  
-Train a machine learning model for predictive maintenance by using ML.NET Model Builder
-https://learn.microsoft.com/en-us/training/modules/predictive-maintenance-model-builder/
 
