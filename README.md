@@ -1,22 +1,13 @@
 # Machine Learning Study Project
+Al is the theory and development of computer systems able to perform tasks normally requiring human intelligence.
 
-Machine learning is all about programming the un-programmable.
-
-## Setup
-```
-    $ brew install python3
-    
-    $ virtualenv --system-site-packages -p python3 venv3
-    
-    $ . venv3/bin/activate
-    (venv3)$ pip3 install -r requirements.txt
-
-    ...
-    (venv3)$ deactivate
-```
+Machine learning is all about programming the un-programmable. ML gives computers the ability to learn without explicit programming.
+- Unsupervised learning (data is labeled). e.g. Prediction
+- Supervised learning (data is not labeled). e.g. Clustering
+- Reinforcement learning
+- Deep learning: using Artificial Neural Networks
+    - Generative: generate new data
+    - Discriminative: classify or predict
 
 
-## Add python kernal to jupyter
-```
-    python -m ipykernel install --user --name other-env --display-name "Python 3"
-```
+
