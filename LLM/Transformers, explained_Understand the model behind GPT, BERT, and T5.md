@@ -2,7 +2,7 @@
 https://www.youtube.com/watch?v=SZorAJ4I-sA
 
 
-RNN(Recurrent neural networks)
+RNN(Recurrent neural networks): forget the beginning
 
 
 Transformers: can be Parallelized
