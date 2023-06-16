@@ -46,3 +46,11 @@ npm init -y
 
 npm i openai dotenv express cors
 ```
+setup OpenAI client in api.js
+
+
+create own apis in the index.js
+```
+cd server
+npm i express cors
+```
