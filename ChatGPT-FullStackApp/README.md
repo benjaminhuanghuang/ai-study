@@ -24,11 +24,25 @@ npm run dev
 delete App.css and index.css
 
 
-
-## OpenAI 
 https://beta.openai.com/docs/developer-quickstart/overview
 Quickstart > Build your application
-
 Copy index.module.css
 
 Copy icon from flaticon.com
+
+Create UI
+
+##  OpenAI API access
+https://platform.openai.com/
+Personal > View API keys
+
+Create a key and put it in .env file
+
+
+## Create backend project
+```
+cd server
+npm init -y
+
+npm i openai dotenv express cors
+```

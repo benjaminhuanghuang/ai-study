@@ -3,13 +3,16 @@ import sqlServer from "./assets/sql-server.png";
 import styles from "./index.module.css";
 
 function App() {
+  // track user input
   const [userPrompt, setUserPrompt] = useState("");
+  //
   const [sqlQuery, setSqlQuery] = useState("");
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    const query = await generateQuery();
-    setSqlQuery(query);
+    console.log("form submitted: ", userPrompt);
+    // const query = await generateQuery();
+    // setSqlQuery(query);
   };
 
   const generateQuery = async () => {
@@ -24,7 +27,7 @@ function App() {
     const data = await response.json();
     return data.sqlQuery.trim();
   };
-  
+
   return (
     <main className={styles.main}>
       <img src={sqlServer} className={styles.icon} alt="SQL server" />
