@@ -14,8 +14,10 @@ const generate = async (queryDescription) => {
 
   const chatGPT = async (queryDescription) => {
     const message = [
+      // the first prompt, describing the model what it is supposed to do
       { role: "system", content: `You are a translator from plain English to SQL.` },
       { role: "user", content: `Convert the following natural language description into a SQL query:\n\nShow all all the elements in the table users` },
+      // the answer expected
       { role: "assistant", content: "SELECT * FROM users;" },
       { role: "user", content: `Convert the following natural language description into a SQL query:\n\n${queryDescription}` },
     ];
