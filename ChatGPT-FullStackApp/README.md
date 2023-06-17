@@ -54,3 +54,5 @@ create own apis in the index.js
 cd server
 npm i express cors
 ```
+
+## generate SQL query
