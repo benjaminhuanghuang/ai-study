@@ -1,4 +1,4 @@
-sklearn
+scikit-learn
 numpy
 pandas
 scipy
@@ -6,3 +6,4 @@ six
 matplotlib
 seaborn
 mglearn
+tensorflow
