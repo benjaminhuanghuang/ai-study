@@ -34,11 +34,10 @@ Loss for a given time step is computed based on the predicted output and the exp
 • Compute cost across multiple samples
 
 ## Back Propagation
-• Compute derivatives (delta) for each time step
-    Hidden state
-    Output
+• Use the cost function to compute derivatives (delta) for hidden state and output in each time step.
+    The derivative represents the adjustments that needs to be made to various weights and biases.
 • Compute cumulative delta
-• Apply cumulative delta to weights and biases
+• Apply cumulative delta to all weights and biases for the RNN model
 • Continue gradient descent until error is minimized
 
 
