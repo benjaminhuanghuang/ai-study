@@ -1,0 +1,6 @@
+
+
+Setup
+```
+pip install openai
+```
