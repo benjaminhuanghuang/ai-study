@@ -99,3 +99,8 @@ ENV/
 
 *.pdf
 datasets/
+
+*.bin
+*.exe
+*.DLL
+*.cache
