@@ -1,4 +1,4 @@
-secret_key = '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'
+secret_key = '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'
 
 import openai
 openai.api_key = secret_key
