@@ -9,3 +9,6 @@ https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/integra
 
 
 https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/embeddings?tabs=console
+
+
+Deep Learning with TensorFlow and Keras - Third Edition
