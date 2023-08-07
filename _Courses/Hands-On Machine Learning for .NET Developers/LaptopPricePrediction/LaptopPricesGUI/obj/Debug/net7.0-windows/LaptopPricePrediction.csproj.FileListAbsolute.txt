@@ -1,2 +1,0 @@
-C:\ben-github\ai-study\_Courses\Hands-On Machine Learning for .NET Developers\LaptopPricePrediction\LaptopPricePrediction\obj\Debug\net7.0-windows\LaptopPricePrediction.csproj.AssemblyReference.cache
-C:\ben-github\ai-study\_Courses\Hands-On Machine Learning for .NET Developers\LaptopPricePrediction\LaptopPricePrediction\obj\Debug\net7.0-windows\LaptopPricePrediction_MarkupCompile.cache
