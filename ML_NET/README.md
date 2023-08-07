@@ -9,3 +9,6 @@
 - Prepare data: Load data, Extract Features
 - Build & Train model & Evaluate model
 - Run/ Consume model
+
+
+## Data Operations
