@@ -1,5 +1,6 @@
 # The Essential Machine Learning Foundations: Math, Probability, Statistics, and Computer Science (Video Collection)
 https://learning.oreilly.com/videos/the-essential-machine/9780137903245/
+https://github.com/jonkrohn/ML-foundations
 By Jon Krohn
 March 2022
 
