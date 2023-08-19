@@ -1,5 +1,5 @@
 
-
+https://www.coursera.org/learn/create-machine-learning-models-in-microsoft-azure/supplement/nYNni/exercise-train-a-deep-neural-network
 
 ## Create Azure Machine Learning workspace
 
