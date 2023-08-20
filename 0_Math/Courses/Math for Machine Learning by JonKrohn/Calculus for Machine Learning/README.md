@@ -4,7 +4,7 @@ https://learning.oreilly.com/videos/the-essential-machine/9780137903245/
 https://github.com/jonkrohn/ML-foundations
 
 By Jon Krohn
-January 2021
+March 2022
 
 
 - Lesson 1: Orientation to Calculus
