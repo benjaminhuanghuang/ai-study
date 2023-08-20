@@ -1,5 +1,6 @@
 # Data Structures, Algorithms, and Machine Learning Optimization: Introduction
-https://learning.oreilly.com/videos/the-essential-machine/9780137903245/
+https://learning.oreilly.com/videos/data-structures-algorithms/9780137644889/
+
 https://github.com/jonkrohn/ML-
 
 By Jon Krohn

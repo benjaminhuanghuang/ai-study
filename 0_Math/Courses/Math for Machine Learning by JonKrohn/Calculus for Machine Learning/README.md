@@ -1,5 +1,5 @@
 # Calculus for Machine Learning LiveLessons
-https://learning.oreilly.com/videos/the-essential-machine/9780137903245/
+https://learning.oreilly.com/videos/calculus-for-machine/9780137398171/
 
 https://github.com/jonkrohn/ML-foundations
 
