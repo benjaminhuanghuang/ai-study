@@ -1,5 +1,9 @@
-# The Essential Machine Learning Foundations: Math, Probability, Statistics, and Computer Science (Video Collection)
+# Linear Algebra for Machine Learning
+https://learning.oreilly.com/videos/linear-algebra-for/9780137398119/
+
 https://learning.oreilly.com/videos/the-essential-machine/9780137903245/
+
+
 https://github.com/jonkrohn/ML-foundations
 By Jon Krohn
 March 2022
