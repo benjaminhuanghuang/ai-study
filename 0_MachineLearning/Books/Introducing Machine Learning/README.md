@@ -1,5 +1,9 @@
 
 # Introducing Machine Learning
+by Dino Esposito, Francesco Esposito
+400 Pages
+2022.2
+
 https://learning.oreilly.com/library/view/introducing-machine-learning/9780135588338/
 
 ## Part I: Laying the Groundwork of Machine Learning
