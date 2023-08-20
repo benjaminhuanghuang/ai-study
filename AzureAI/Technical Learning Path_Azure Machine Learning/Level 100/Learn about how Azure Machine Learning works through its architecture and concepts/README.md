@@ -1,0 +1,1 @@
+# How Azure Machine Learning works: resources and assets
