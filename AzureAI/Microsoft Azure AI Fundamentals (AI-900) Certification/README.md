@@ -1,6 +1,8 @@
 # Microsoft Azure AI Fundamentals (AI-900) Certification
 https://learning.oreilly.com/videos/microsoft-azure-ai/27883591VIDEOPAIML/27883591VIDEOPAIML-c1_s2/
 
+https://github.com/alfredodeza/ai-fundamentals
+
 Publication Date: August 2023
 
 
