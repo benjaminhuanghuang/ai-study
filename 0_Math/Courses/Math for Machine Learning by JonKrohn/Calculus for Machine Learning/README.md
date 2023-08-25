@@ -4,7 +4,7 @@ https://learning.oreilly.com/videos/calculus-for-machine/9780137398171/
 https://github.com/jonkrohn/ML-foundations
 
 By Jon Krohn
-March 2022
+January 2021
 
 
 - Lesson 1: Orientation to Calculus
