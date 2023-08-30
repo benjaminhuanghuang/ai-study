@@ -6,6 +6,8 @@ https://www.youtube.com/playlist?list=PLkDaE6sCZn6FNC6YRfRQc_FbeQrF8BwGI
 
 https://www.coursera.org/specializations/machine-learning-introduction#courses
 
+https://github.com/greyhatguy007/Machine-Learning-Specialization-Coursera
+
 
 ## Supervised Machine Learning: Regression and Classification
 
