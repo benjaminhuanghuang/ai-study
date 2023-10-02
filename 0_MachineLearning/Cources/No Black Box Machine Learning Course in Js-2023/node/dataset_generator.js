@@ -23,8 +23,11 @@ console.log("GENERATING DATASET ...");
 
 const fileNames = fs.readdirSync(constants.RAW_DIR);
 const samples = [];
+// give each sample a unique id
 let id = 1;
+
 fileNames.forEach((fn) => {
+  // extract the data from the file
   const content = fs.readFileSync(constants.RAW_DIR + "/" + fn);
   const { session, student, drawings } = JSON.parse(content);
   for (let label in drawings) {
@@ -36,6 +39,7 @@ fileNames.forEach((fn) => {
     });
 
     const paths = drawings[label];
+    // write the data to a sample file
     fs.writeFileSync(
       constants.JSON_DIR + "/" + id + ".json",
       JSON.stringify(paths)
