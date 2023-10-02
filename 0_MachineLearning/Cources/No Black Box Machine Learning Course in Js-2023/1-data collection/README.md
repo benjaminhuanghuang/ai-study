@@ -1,7 +1,5 @@
 
-
-
-## Create web app
+## Create web app to collect data
 ```
 <body>
     <div id="content">
@@ -25,4 +23,9 @@ class SketchPad {
     this.canvas = document.createElement("canvas");
   }
 }
+```
+
+The drawing data will be downloaded as json files
+```
+data.drawings[label] = sketchPad.paths;
 ```

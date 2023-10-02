@@ -30,6 +30,7 @@ class SketchPad {
     this.#redraw();
   }
 
+  // internal methods
   #addEventListeners() {
     this.canvas.onmousedown = (evt) => {
       const mouse = this.#getMouse(evt);
@@ -66,6 +67,7 @@ class SketchPad {
 
   #redraw() {
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    // call the utility function from draw.js
     draw.paths(this.ctx, this.paths);
     if (this.paths.length > 0) {
       this.undoBtn.disabled = false;
