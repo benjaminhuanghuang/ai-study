@@ -19,6 +19,6 @@ draw.paths = (ctx, paths, color = "black") => {
   }
 };
 
-if (typeof module !== "undefined") {
+if (typeof module !== "undefined") { // for browser compatibility
   module.exports = draw;
 }

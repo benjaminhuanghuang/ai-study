@@ -25,6 +25,6 @@ utils.groupBy = (objArray, key) => {
   return groups;
 };
 
-if (typeof module !== "undefined") {
+if (typeof module !== "undefined") { // for browser compatibility
   module.exports = utils;
 }
