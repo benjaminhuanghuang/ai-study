@@ -13,6 +13,7 @@ utils.printProgress = (count, max) => {
   process.stdout.write(count + "/" + max + " (" + percent + ")");
 };
 
+// converts an array to an object with the keys
 utils.groupBy = (objArray, key) => {
   const groups = {};
   for (let obj of objArray) {
@@ -25,6 +26,7 @@ utils.groupBy = (objArray, key) => {
   return groups;
 };
 
-if (typeof module !== "undefined") { // for browser compatibility
+if (typeof module !== "undefined") {
+  // for browser compatibility
   module.exports = utils;
 }

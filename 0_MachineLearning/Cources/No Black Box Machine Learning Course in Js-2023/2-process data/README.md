@@ -30,3 +30,9 @@ Install canvas in nodejs environment
 
     const { createCanvas } = require("canvas")
 ```
+
+
+Create folder used for communication between nodejs app with web app
+```
+    mkdir common/js_objects
+```
