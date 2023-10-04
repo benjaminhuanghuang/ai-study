@@ -25,14 +25,21 @@ generate samples.json
 
 Install canvas in nodejs environment
 ```
-    npm i canvas
+    npm i
 
 
     const { createCanvas } = require("canvas")
 ```
 
-
 Create folder used for communication between nodejs app with web app
 ```
     mkdir common/js_objects
+```
+
+
+Process data
+```
+    node i 
+    or
+    node process_data.js
 ```
