@@ -1,4 +1,5 @@
 # Multiple linear regression
+
 ## Multiple features
 dot product
 f = w • x + b

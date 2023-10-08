@@ -41,3 +41,6 @@ Too large: may overshoot and may never reach the minimum. may fail to converge a
 use power rule and chine rule
 
 Informally, a convex function is of bowl-shaped function and it cannot have any local minima other than the single global minimum. When you implement gradient descent on a convex function, one nice property is that so long as you're learning rate is chosen appropriately, it will always converge to the global minimum.
+
+
+## Running gradient descent
