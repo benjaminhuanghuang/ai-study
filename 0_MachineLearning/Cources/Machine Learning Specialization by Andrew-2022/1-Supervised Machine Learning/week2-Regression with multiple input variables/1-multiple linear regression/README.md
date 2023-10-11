@@ -20,6 +20,7 @@ Test the execution time:
 ![](./dot-execution-time.png)
 
 ## Gradient descent for multiple linear regression
+![](./gradient-descent-for-multi-linear-regression.png)
 ![](./multiple-linear-regression.png)
 
 ## Normal equation: alternative to gradient descent
