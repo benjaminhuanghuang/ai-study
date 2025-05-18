@@ -1,8 +1,8 @@
 # Math for Deep Learning
-https://learning.oreilly.com/library/view/math-for-deep/9781098129101/
-By Ronald T. Kneusel
-2021 
 
+<https://learning.oreilly.com/library/view/math-for-deep/9781098129101/>
+By Ronald T. Kneusel
+2021
 
 Chapter 1: Setting the Stage
 
