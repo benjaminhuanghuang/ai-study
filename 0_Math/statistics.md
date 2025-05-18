@@ -1,4 +1,5 @@
 Measures of central tendency:
+
 - The mean: A simple average based on adding together all of the values in the sample set and then dividing the total by the number of samples.
 - The median: The value in the middle of the range of all of the sample values.
 - The mode: The most commonly occurring value in the sample set.
